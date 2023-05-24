@@ -1,8 +1,9 @@
-h1 {}
+/* #0074e9 #e7223d*/
+h1 {text-align : center; margin:50px auto 10px;}
 h1 a {}
-h1 a img {} 
-main {}
-main #loginFrm{}
+h1 a img {width: 200px;} 
+main {width: 500px;background: aqua; margin:0 auto;}
+main #loginFrm{border-bottom: 1px solid #aaa;margin-bottom: 20px; padding-bottom: 20px; }
 main #loginFrm fieldset{}
 main #loginFrm fieldset ul{}
 main #loginFrm fieldset ul li {}
@@ -22,7 +23,14 @@ main #loginFrm fieldset .btm p label {}
 main #loginFrm fieldset .btm p label input[name=login_y] {}
 main #loginFrm fieldset .btm p label span {}
 main #loginFrm fieldset .btm .idpw_search {} 
-main #loginFrm fieldset #login_btn {}
-main .join_link {}
-footer {}
+main #loginFrm fieldset #login_btn {
+    background: #0074e9;
+    width: 100%; color: #fff; padding: 20px 0;
+    box-shadow: 0 2px 0 #00478f;
+}
+main .join_link {
+    border: 1px solid #aaa; color: #0074e9; padding: 20px 0; width: 100%;
+    display: block; text-align: center; background: #fff; padding: 20px 0; width: 100%;
+}
+footer {text-align: center; font-size: 0.85rem; margin-top : 20px;}
 
